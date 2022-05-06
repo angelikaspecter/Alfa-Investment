@@ -1,0 +1,53 @@
+$font-family: "Roboto", sans-serif;
+$font-size: 16px;
+$fs-small: 12px;
+$fs-big: 18px;
+$fs-h1: 38px;
+$fs-h2: 32px;
+$fs-h3: 28px;
+$fs-h4: 24px;
+$fw-normal: 400;
+$fw-bold: 600;
+$fw-strong: 900;
+$text-dark: rgba(0, 0, 0, 1);
+$text-middle: rgba(238, 238, 238, 1);
+$text-light: rgba(255, 255, 255, 1);
+$header-color: rgba(208, 34, 22, 1);
+$block-color: rgba(245, 247, 249, 1);
+$accident-color: rgba(220, 53, 69, 1);
+$accident-color-dark: rgba(12, 32, 52, 1);
+$bg-gzp: rgba(0, 151, 223, 1);
+$bg-lucoil: rgba(225, 0, 1, 1);
+$bg-rosttel: rgba(119, 1, 225, 1);
+$bg-sberbank: rgba(0, 128, 1, 1);
+$bg-apple: rgba(80, 80, 90, 1);
+$bg-red: rgba(224, 0, 0, 1);
+$bg-gm: rgba(35, 85, 158, 1);
+$bg-ford: rgba(0, 70, 166, 1);
+$bg-tiffany: rgba(130, 215, 212, 1);
+$bg-lyft: rgba(196, 26, 187, 1);
+$bg-bmw: rgba(51, 56, 59, 1);
+$bg-merck: rgba(28, 155, 148, 1);
+$bg-adidas: rgba(50, 68, 70, 1);
+$bg-bayer: rgba(7, 53, 77, 1);
+$bg-zeiss: rgba(17, 25, 88, 1);
+$bg-henkel: rgba(200, 16, 26, 1);
+$bg-usd: rgba(3, 72, 141, 1);
+$bg-euro: rgba(0, 106, 215, 1);
+$bg-funt: rgba(1, 54, 108, 1);
+$bg-uralkali: rgba(0, 128, 129, 1);
+$bg-alfa: rgba(205, 37, 37, 1);
+$bg-bush: rgba(97, 97, 97, 1);
+$bg-ofz: rgba(0, 128, 64, 1);
+$bg-metalinvest: rgba(163, 163, 163, 1);
+$bg-fxit: rgba(3, 72, 141, 1);
+$bg-fxcn: rgba(199, 31, 5, 1);
+$bg-fxrb: rgba(0, 91, 182, 1);
+$box-shadow: rgba(0, 0, 0, 0.16) 0px 20px 64px 8px;
+
+:active,
+:hover,
+:focus {
+	outline: 0;
+	outline-offset: 0;
+}

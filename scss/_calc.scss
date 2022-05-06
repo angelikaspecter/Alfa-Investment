@@ -1,0 +1,135 @@
+.calc {
+	& .calc-buy {
+		& h3 {
+			font-size: $fs-h3;
+			font-weight: $fw-bold;
+		}
+		& p {
+			font-size: $fs-small;
+		}
+		& .calc-buy-items {
+			& .left {
+				& .btn {
+					@include calc-btn;
+					border-radius: 100px;
+					margin-right: 5px;
+				}
+				& .active {
+					background-color: $accident-color-dark;
+					color: white;
+				}
+			}
+			& .right {
+				& .btn {
+					@include calc-currency-btn;
+					border-radius: 60px;
+					margin-right: 5px;
+				}
+				& .active {
+					background-color: $accident-color-dark;
+					color: white;
+				}
+			}
+			& .metr {
+				position: relative;
+				background-color: rgba(238, 238, 238, 1);
+				& h4 {
+					font-size: $fs-small;
+					color: rgba(0, 0, 0, 0.3);
+				}
+				& label {
+					font-size: $font-size;
+					font-weight: $fw-bold;
+					margin-left: -5px;
+				}
+				& input[type="range"] {
+					position: absolute;
+					left: 0;
+					bottom: 0;
+				}
+				& input[type="text"] {
+					color: $text-dark;
+					font-weight: $fw-bold;
+					background-color: transparent;
+					outline: none;
+					border: none;
+				}
+				& .irs {
+					&--round {
+						height: 20px;
+					}
+				}
+				& .irs-handle {
+					top: 10px;
+					border-color: $accident-color;
+					box-shadow: 0 1px 3px $bg-alfa;
+				}
+				& .irs-bar {
+					top: 20px;
+					background-color: $accident-color;
+				}
+				& .irs-line {
+					top: 20px;
+				}
+			}
+			& .desc {
+				color: rgba(0, 0, 0, 0.5);
+			}
+		}
+		& .calc-course-items {
+			& .calc-course-item {
+				& label {
+					font-weight: 500;
+					font-size: $font-size;
+				}
+				& input {
+					font-size: $fs-h4;
+					font-weight: $fw-strong;
+					border: none;
+				}
+				& .red {
+					color: $accident-color;
+				}
+			}
+		}
+	}
+	& .calc-propose {
+		border: 1px solid $accident-color-dark;
+		& label {
+			font-size: $fs-h4;
+			font-weight: $fw-bold;
+			color: $text-dark;
+		}
+		& p {
+			font-size: $fs-h1;
+			font-weight: $fw-strong;
+			color: $text-dark;
+			border: none;
+		}
+		& .table {
+			width: 100%;
+			& tr {
+				&:last-child {
+					border: transparent;
+				}
+			}
+			& th {
+				color: $text-dark;
+				font-weight: $fw-normal;
+			}
+			& td {
+				color: $text-dark;
+				font-weight: $fw-strong;
+				font-size: $fs-big;
+				text-align: right;
+			}
+			& .red {
+				color: $accident-color;
+			}
+		}
+	}
+	& .small {
+		font-size: $fs-small;
+		color: rgb(180, 183, 185);
+	}
+}

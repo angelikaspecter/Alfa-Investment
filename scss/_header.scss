@@ -1,0 +1,82 @@
+.main-header {
+	background-color: $header-color;
+	& .banner-header {
+		height: 85px;
+		background: url("../img/banner.png") no-repeat 50% 50%;
+		background-size: content;
+		@media (max-width: 400px) {
+			height: 50px;
+			background-size: cover;
+		}
+		@media (max-width: 576px) {
+			height: 60px;
+			background-size: content;
+		}
+		@media (min-width: 576px) {
+			height: 75px;
+			background-size: content;
+		}
+		@media (min-width: 768px) {
+			height: 80px;
+			background-size: content;
+		}
+		@media (min-width: 992px) {
+			height: 80px;
+			background-size: content;
+		}
+		@media (min-width: 1200px) {
+			height: 80px;
+			background-size: content;
+		}
+	}
+	& .navbar {
+		& .header-nav {
+			position: relative;
+			& .navbar-nav {
+				@media (min-width: 1200px) {
+					margin: 0 auto;
+				}
+				& li {
+					& a {
+						font-size: $font-size;
+						font-weight: $fw-bold;
+						& .active {
+							color: $text-dark;
+							border-bottom: 3px solid $accident-color;
+						}
+					}
+				}
+			}
+			& .header-btn {
+				@media (min-width: 992px) {
+					position: absolute;
+					right: 0;
+				}
+				& .btn-danger {
+					@include header-btn;
+					@media (max-width: 576px) {
+						width: 100%;
+					}
+					@media (min-width: 576px) {
+						width: 100%;
+					}
+					@media (min-width: 992px) {
+						width: 140px;
+					}
+				}
+				& .btn-outline-danger {
+					@include header-btn;
+					@media (max-width: 576px) {
+						width: 100%;
+					}
+					@media (min-width: 576px) {
+						width: 100%;
+					}
+					@media (min-width: 992px) {
+						width: 170px;
+					}
+				}
+			}
+		}
+	}
+}

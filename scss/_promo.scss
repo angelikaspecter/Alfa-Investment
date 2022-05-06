@@ -1,0 +1,76 @@
+.promo-trade {
+	height: 480px;
+	background: url("../img/pegas.png") no-repeat 100% 50%;
+	background-size: cover;
+	@media (max-width: 576px) {
+		height: 250px;
+		background-position: 50% 0;
+	}
+	@media (min-width: 576px) {
+		height: 250px;
+	}
+	@media (min-width: 768px) {
+		height: 290px;
+		background-position: 50% 0;
+	}
+	@media (min-width: 992px) {
+		height: 340px;
+	}
+	@media (min-width: 1200px) {
+		height: 380px;
+	}
+	@media (min-width: 1400px) {
+		height: 480px;
+	}
+}
+.promo-invest {
+	height: 480px;
+	background: url("../img/tel_bg.png") no-repeat 100% 50%;
+	background-size: cover;
+	@media (max-width: 576px) {
+		height: 250px;
+		background-position: 30% 0;
+	}
+	@media (min-width: 576px) {
+		height: 250px;
+	}
+	@media (min-width: 768px) {
+		height: 290px;
+		background-position: 50% 0;
+	}
+	@media (min-width: 992px) {
+		height: 340px;
+	}
+	@media (min-width: 1200px) {
+		height: 380px;
+	}
+	@media (min-width: 1400px) {
+		height: 480px;
+	}
+}
+.promo-training {
+	height: 480px;
+	background: url("../img/men_bg.png") no-repeat 100% 50%;
+	background-size: cover;
+	@media (max-width: 576px) {
+		height: 250px;
+		background-position: 100% 0;
+	}
+	@media (min-width: 576px) {
+		height: 250px;
+		background-position: 100% 0;
+	}
+	@media (min-width: 768px) {
+		height: 290px;
+	}
+	@media (min-width: 992px) {
+		height: 340px;
+	}
+	@media (min-width: 1200px) {
+		height: 380px;
+		background-position: 100% 0;
+	}
+	@media (min-width: 1400px) {
+		height: 480px;
+	}
+}

@@ -1,0 +1,52 @@
+.privilege {
+	& .container {
+		& h2 {
+			font-size: $fs-h2;
+			font-weight: $fw-bold;
+			@media (max-width: 576px) {
+				font-size: $fs-h3;
+			}
+			@media (min-width: 576px) {
+				font-size: $fs-h3;
+			}
+			@media (min-width: 768px) {
+				font-size: $fs-h3;
+			}
+			@media (min-width: 992px) {
+				font-size: $fs-h2;
+			}
+			@media (min-width: 1200px) {
+				font-size: $fs-h2;
+			}
+		}
+		& p {
+			@media (max-width: 576px) {
+				width: 300px;
+				font-size: $font-size;
+			}
+			@media (min-width: 576px) {
+				width: 230px;
+				font-size: $font-size;
+			}
+			@media (min-width: 768px) {
+				width: 300px;
+				font-size: $font-size;
+			}
+			@media (min-width: 992px) {
+				width: 220px;
+				font-size: $font-size;
+			}
+			@media (min-width: 1200px) {
+				width: 250px;
+				font-size: $font-size;
+			}
+			@media (min-width: 1200px) {
+				width: 270px;
+				font-size: $font-size;
+			}
+		}
+		& a {
+			@include page-btn;
+		}
+	}
+}

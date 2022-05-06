@@ -1,0 +1,116 @@
+.history {
+	background-color: $text-middle;
+	& h2 {
+		font-weight: $fw-bold;
+		font-size: $fs-h2;
+		@media (max-width: 576px) {
+			font-size: $fs-h3;
+		}
+		@media (min-width: 576px) {
+			font-size: $fs-h3;
+		}
+		@media (min-width: 768px) {
+			font-size: $fs-h2;
+		}
+		@media (min-width: 992px) {
+			font-size: $fs-h2;
+		}
+		@media (min-width: 1200px) {
+			font-size: $fs-h2;
+		}
+	}
+	& p {
+		font-size: $font-size;
+	}
+	& a {
+		color: $accident-color;
+	}
+	& .row {
+		display: flex;
+		align-items: center;
+
+		& .block {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			@media (max-width: 576px) {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+			}
+			@media (min-width: 576px) {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+			}
+			@media (min-width: 992px) {
+				display: flex;
+				flex-direction: column;
+			}
+
+			& .block-1,
+			.block-2,
+			.block-3,
+			.block-4 {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				& .text-block {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					flex-direction: column;
+					& h3 {
+						font-size: $fs-h3;
+					}
+					& .desc {
+						font-size: $fs-small;
+						width: 190px;
+						@media (max-width: 576px) {
+							width: 150px;
+						}
+						@media (min-width: 576px) {
+							width: 150px;
+						}
+						@media (min-width: 768px) {
+							width: 160px;
+						}
+						@media (min-width: 992px) {
+							width: 180px;
+						}
+						@media (min-width: 1200px) {
+							width: 190px;
+						}
+					}
+				}
+			}
+		}
+		& .img-bank {
+			display: flex;
+			justify-content: center;
+
+			& img {
+				@media (max-width: 576px) {
+					width: auto;
+					height: 200px;
+				}
+				@media (min-width: 576px) {
+					width: auto;
+					height: 300px;
+				}
+				@media (min-width: 768px) {
+					height: 400px;
+				}
+				@media (min-width: 992px) {
+					height: 500px;
+				}
+				@media (min-width: 1200px) {
+					height: 600px;
+				}
+			}
+		}
+	}
+}

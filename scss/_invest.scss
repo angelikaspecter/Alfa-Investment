@@ -1,0 +1,9 @@
+.wrapper {
+	min-height: calc(100vh - 85px);
+	& h1 {
+		font-size: $fs-h1;
+	}
+}
+
+@import "_service";
+@import "_privilege";

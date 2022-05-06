@@ -1,0 +1,10 @@
+.wrapper {
+	min-height: calc(100vh - 85px);
+	& h1 {
+		font-size: $fs-h1;
+	}
+}
+
+@import "_tool";
+@import "_calc.scss";
+@import "_history";

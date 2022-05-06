@@ -1,0 +1,45 @@
+@mixin font-style {
+	font-family: $font-family !important;
+	font-size: $font-size;
+	color: $text-dark;
+	font-weight: $fw-normal;
+}
+
+@mixin header-btn {
+	font-weight: $fw-bold;
+	text-transform: uppercase;
+	font-size: $fs-small;
+	letter-spacing: 1px;
+	padding: 0.65rem 1rem 0.55rem;
+}
+
+@mixin page-btn {
+	width: 190px;
+	padding: 0.55rem 1rem;
+	font-weight: $fw-bold;
+	font-size: $font-size;
+	letter-spacing: 1px;
+}
+
+@mixin calc-btn {
+	width: 100px;
+	padding: 0.55rem auto;
+	font-weight: 500;
+	font-size: $fs-small;
+	letter-spacing: 1px;
+}
+
+@mixin calc-currency-btn {
+	width: 60px;
+	padding: 0.55rem auto;
+	font-weight: 500;
+	font-size: $fs-small;
+	letter-spacing: 1px;
+}
+
+@mixin service {
+	position: relative;
+	width: 100%;
+	height: 380px;
+	background-size: cover;
+}

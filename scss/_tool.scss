@@ -1,0 +1,151 @@
+.tool {
+	background-color: $text-middle;
+	& h2 {
+		font-weight: $fw-bold;
+		font-size: $fs-h2;
+		@media (max-width: 576px) {
+			font-size: $fs-h3;
+		}
+		@media (min-width: 576px) {
+			font-size: $fs-h3;
+		}
+		@media (min-width: 768px) {
+			font-size: $fs-h2;
+		}
+		@media (min-width: 992px) {
+			font-size: $fs-h2;
+		}
+		@media (min-width: 1200px) {
+			font-size: $fs-h2;
+		}
+	}
+	& p {
+		font-size: $font-size;
+	}
+	& .tool-menu {
+		& .nav-tabs {
+			& .nav-link {
+				font-size: $font-size;
+				font-weight: $fw-bold;
+
+				& .active {
+					color: $text-dark;
+					border-bottom: 3px solid $accident-color;
+				}
+			}
+		}
+	}
+	& .card-body {
+		height: 310px;
+		overflow: hidden;
+		& .card-group {
+			color: $text-light;
+			& .card {
+				& h3 {
+					font-size: $fs-h4;
+				}
+				& p {
+					width: 170px;
+					height: 60px;
+					font-size: $fs-small;
+					opacity: 0.8;
+				}
+				& .table {
+					& th {
+						padding: 0;
+					}
+					& td {
+						font-size: $fs-small;
+						padding: 0;
+						opacity: 0.8;
+					}
+				}
+				& .btn {
+					width: 100px;
+					font-size: $fs-small;
+				}
+			}
+		}
+	}
+	& .bg-gzp {
+		background-color: $bg-gzp;
+	}
+	& .bg-lucoil {
+		background-color: $bg-lucoil;
+	}
+	& .bg-rosttel {
+		background-color: $bg-rosttel;
+	}
+	& .bg-sberbank {
+		background-color: $bg-sberbank;
+	}
+	& .bg-apple {
+		background-color: $bg-apple;
+	}
+	& .bg-red {
+		background-color: $bg-red;
+	}
+	& .bg-gm {
+		background-color: $bg-gm;
+	}
+	& .bg-ford {
+		background-color: $bg-ford;
+	}
+	& .bg-tiffany {
+		background-color: $bg-tiffany;
+	}
+	& .bg-lyft {
+		background-color: $bg-lyft;
+	}
+	& .bg-bmw {
+		background-color: $bg-bmw;
+	}
+	& .bg-merck {
+		background-color: $bg-merck;
+	}
+	& .bg-adidas {
+		background-color: $bg-adidas;
+	}
+	& .bg-bayer {
+		background-color: $bg-bayer;
+	}
+	& .bg-zeiss {
+		background-color: $bg-zeiss;
+	}
+	& .bg-henkel {
+		background-color: $bg-henkel;
+	}
+	& .bg-usd {
+		background-color: $bg-usd;
+	}
+	& .bg-euro {
+		background-color: $bg-euro;
+	}
+	& .bg-funt {
+		background-color: $bg-funt;
+	}
+	& .bg-uralkali {
+		background-color: $bg-uralkali;
+	}
+	& .bg-alfa {
+		background-color: $bg-red;
+	}
+	& .bg-bush {
+		background-color: $bg-bush;
+	}
+	& .bg-ofz {
+		background-color: $bg-ofz;
+	}
+	& .bg-metalinvest {
+		background-color: $bg-metalinvest;
+	}
+	& .bg-fxit {
+		background-color: $bg-fxit;
+	}
+	& .bg-fxcn {
+		background-color: $bg-fxcn;
+	}
+	& .bg-fxrb {
+		background-color: $bg-fxrb;
+	}
+}
